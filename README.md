@@ -18,7 +18,7 @@ This repository will continue to grow as new tasks and projects are completed th
 ## Connect with me
 
 LinkedIn:
-linkedin.com/in/ailanasirai
+https://www.linkedin.com/in/aila-nasir/
 
 GitHub:
 https://github.com/ailanasirai
