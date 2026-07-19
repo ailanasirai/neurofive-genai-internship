@@ -1,0 +1,63 @@
+# Week 1 — Task 1: Zero-Shot vs Few-Shot Showdown
+
+**Aila Nasir · Generative AI & Prompt Engineering Intern · NeuroFive Solutions**
+
+## Prompt Used (Zero-Shot)
+Classify the following customer support messages as one of: Complaint, Question, or Praise. Return only the label for each message.
+
+1. "My order arrived three days late and no one responded to my emails."
+2. "Does this product come in a larger size?"
+3. "Absolutely loved the quality, will order again!"
+4. "The app keeps crashing every time I try to checkout."
+5. "How long does delivery usually take?"
+6. "Your support team was so helpful, thank you!"
+7. "I was charged twice for the same order."
+8. "Can I change my shipping address after placing the order?"
+9. "The packaging was nice but the item arrived late."
+10. "Is there a discount for bulk orders?"
+
+## Zero-Shot Results
+
+**ChatGPT:** Complaint, Question, Praise, Complaint, Question, Praise, Complaint, Question, Complaint, Question
+
+**Claude:** Complaint, Question, Praise, Complaint, Question, Praise, Complaint, Question, Complaint, Question
+
+**Gemini:** Complaint, Question, Praise, Complaint, Question, Praise, Complaint, Question, Complaint, Question
+
+## Prompt Used (Few-Shot)
+Classify each customer support message as one of: Complaint, Question, or Praise.
+
+Example 1: "The item arrived broken and I want a refund." → Complaint
+Example 2: "Does this come in a larger size?" → Question
+Example 3: "This exceeded my expectations, thank you!" → Praise
+
+Now classify the following messages. Return only the label for each: (same 10 messages as above)
+
+## Few-Shot Results
+
+**ChatGPT:** Complaint, Question, Praise, Complaint, Question, Praise, Complaint, Question, Complaint, Question
+
+**Claude:** Complaint, Question, Praise, Complaint, Question, Praise, Complaint, Question, Complaint, Question
+
+**Gemini:** Complaint, Question, Praise, Complaint, Question, Praise, Complaint, Question, Complaint, Question
+
+## Comparison Table
+
+| Message # | Zero-Shot | Few-Shot | Correct Label | Zero-Shot Correct? | Few-Shot Correct? |
+|---|---|---|---|---|---|
+| 1 | Complaint | Complaint | Complaint | Yes | Yes |
+| 2 | Question | Question | Question | Yes | Yes |
+| 3 | Praise | Praise | Praise | Yes | Yes |
+| 4 | Complaint | Complaint | Complaint | Yes | Yes |
+| 5 | Question | Question | Question | Yes | Yes |
+| 6 | Praise | Praise | Praise | Yes | Yes |
+| 7 | Complaint | Complaint | Complaint | Yes | Yes |
+| 8 | Question | Question | Question | Yes | Yes |
+| 9 | Complaint | Complaint | Complaint (ambiguous) | Yes | Yes |
+| 10 | Question | Question | Question | Yes | Yes |
+
+**Zero-Shot Accuracy: 10/10**
+**Few-Shot Accuracy: 10/10**
+
+## Analysis
+Both zero-shot and few-shot prompting achieved 10/10 accuracy on this classification task across all three tools. This suggests that for a straightforward, well-defined task with clear category boundaries, modern LLMs don't need examples to perform well — the category names themselves carry enough semantic meaning for zero-shot prompting to succeed. Few-shot prompting likely shows a bigger advantage on more ambiguous or domain-specific tasks, where category definitions aren't self-explanatory from their names alone. The one borderline message (mixed praise and complaint) was still classified correctly by all tools, suggesting even edge cases were within the models' zero-shot capability here.
