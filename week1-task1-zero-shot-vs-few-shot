@@ -61,3 +61,4 @@ Now classify the following messages. Return only the label for each: (same 10 me
 
 ## Analysis
 Both zero-shot and few-shot prompting achieved 10/10 accuracy on this classification task across all three tools. This suggests that for a straightforward, well-defined task with clear category boundaries, modern LLMs don't need examples to perform well — the category names themselves carry enough semantic meaning for zero-shot prompting to succeed. Few-shot prompting likely shows a bigger advantage on more ambiguous or domain-specific tasks, where category definitions aren't self-explanatory from their names alone. The one borderline message (mixed praise and complaint) was still classified correctly by all tools, suggesting even edge cases were within the models' zero-shot capability here.
+
