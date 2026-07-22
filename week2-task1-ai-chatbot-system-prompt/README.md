@@ -98,6 +98,9 @@ All 5 test messages were run successfully. Kairo maintained his persona througho
 
 
 ## Submission Links
-GitHub Repo: https://github.com/ailanasirai/neurofive-genai-internship
-Colab Notebook: [paste your Colab share link here]
-LinkedIn Video: [paste your LinkedIn video link here]
+
+**GitHub Repo:** https://github.com/ailanasirai/neurofive-genai-internship
+
+**Colab Notebook:** https://colab.research.google.com/drive/10TxODri8v1UGi9jzFwYPp1ZMZLTEBIN_?usp=sharing
+
+**LinkedIn Profile:** https://www.linkedin.com/in/aila-nasir/
