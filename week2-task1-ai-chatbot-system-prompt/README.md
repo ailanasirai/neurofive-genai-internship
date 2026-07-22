@@ -72,10 +72,20 @@ Gemini API (gemini-2.5-flash), Python (requests library), Google Colab
 
 ## Test Results
 All 5 test messages were run successfully. Kairo maintained his persona throughout, including on the deliberate off-topic message (Test 3: "What's the weather like today?"), where he answered using space-navigation metaphors instead of breaking character. Screenshots of all 5 test outputs are attached below.
+**Test 1**
+<img width="853" height="270" alt="test-1" src="...link..." />
 <img width="827" height="193" alt="test-1" src="https://github.com/user-attachments/assets/31847e30-c1c6-4067-bb89-2b5018cdf579" />
+**Test 2**
+<img width="818" height="234" alt="test-2" src="...link..." />
 <img width="853" height="270" alt="test-2" src="https://github.com/user-attachments/assets/578c7276-6957-4c12-923b-12a867344b65" />
+**Test 3**
+<img width="817" height="257" alt="test-3" src="...link..." />
 <img width="818" height="234" alt="test-3" src="https://github.com/user-attachments/assets/7cdea4fa-e504-4143-8457-ac6cd9028605" />
+**Test 4**
+<img width="834" height="268" alt="test-4" src="...link..." />
 <img width="817" height="257" alt="test-4" src="https://github.com/user-attachments/assets/f65bdbaa-0733-4093-b518-b320c1339990" />
+**Test 5**
+<img width="827" height="193" alt="test-5" src="...link..." />
 <img width="834" height="268" alt="test-5" src="https://github.com/user-attachments/assets/8b30aa24-6e53-4723-97a5-0c24d1c90aa8" />
 
 
