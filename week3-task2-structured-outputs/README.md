@@ -1,3 +1,4 @@
+<img width="959" height="482" alt="week3-task2-live-test png" src="https://github.com/user-attachments/assets/b82542a7-48a9-495d-8ce7-20523ba8e578" />
 # Week 3 — Task 2: Structured Outputs — Get Clean JSON From Any Prompt
 
 **Aila Nasir · Generative AI & Prompt Engineering Intern · NeuroFive Solutions**
