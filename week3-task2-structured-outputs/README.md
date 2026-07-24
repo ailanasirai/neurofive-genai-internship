@@ -43,6 +43,5 @@ Output: `{"issue_type": "technical", "urgency": "high", "email": null, "name": n
 
 <img width="800" alt="Break Test screenshot" src="week3-task2-break-test.png" />
 
-The schema constraint held even under a direct instruction-override attempt — the model could not be forced to break format, demonstrating that `response_schema` enforcement is a genuine structural constraint, not just a prompt suggestion.<img width="955" height="478" alt="week3-task2-break-test" src="https://github.com/user-attachments/assets/36b6b0ac-395b-4ebc-b12e-03c63c4dfd4b" />
-<img width="959" height="480" alt="week3-task2-batch-test" src="https://github.com/user-attachments/assets/d19fae9d-ab76-4fd9-ba90-eca1a1dbf30b" />
-<img width="959" height="482" alt="week3-task2-live-test" src="https://github.com/user-attachments/assets/01cfd2a7-a797-4527-98cd-dd39b9b005dd" />
+The schema constraint held even under a direct instruction-override attempt — the model could not be forced to break format, demonstrating that `response_schema` enforcement is a genuine structural constraint, not just a prompt suggestion.
+
